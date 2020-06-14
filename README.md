@@ -8,4 +8,4 @@ A very basic ToDo App to keep track of temporary ToDos.
 
 Clone this repo and run npm install to install all necessary packages. Now run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-To quickly test the app please visit https://todo-ng.vercel.app
+To quickly test the app please visit https://todo-ng.shivamvijaywargi.vercel.app
