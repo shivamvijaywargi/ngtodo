@@ -1,29 +1,29 @@
-import { Injectable } from "@angular/core";
-import { of } from "rxjs";
-import { Todo } from "./../model/Todo";
+import { Injectable } from '@angular/core';
+import { of } from 'rxjs';
+import { Todo } from './../model/Todo';
 
 @Injectable({
-  providedIn: "root",
+  providedIn: 'root',
 })
 export class TodoService {
   todos: Todo[];
   constructor() {
     this.todos = [
       {
-        id: "111",
-        title: "Learn C++",
+        id: '111',
+        title: 'Learn Angular',
         isCompleted: true,
         date: new Date(),
       },
       {
-        id: "222",
-        title: "Learn React",
+        id: '222',
+        title: 'Learn Python',
         isCompleted: true,
         date: new Date(),
       },
       {
-        id: "333",
-        title: "Learn Angular",
+        id: '333',
+        title: 'Learn CSS',
         isCompleted: false,
         date: new Date(),
       },
